@@ -270,6 +270,71 @@ To maintain numerical consistency, a **default team_strength value of 0.20** (eq
 
 ---
 
+## Clustering Winger Development Archetypes
+
+**Goal:** Identify patterns in how wingers evolve across multiple seasons, focusing on their attacking and progression output.
+
+This analysis uses **three seasons of player-level data (2022/23–2024/25)** to uncover developmental archetypes that describe how players balance scoring, creativity, and progression responsibilities over time.
+
+Each player’s features include:
+- Per-90 attacking productivity metrics (`gls`, `ast`, `xG`, `xAG`, etc.)
+- Progressive actions (`prgC`, `prgP`, `prgR`)  
+- Lagged features (`_t1`, `_t2`) to capture **multi-season trajectories**
+
+### Why Exclude Team Context
+To ensure that clustering reflects *player-intrinsic* styles rather than club effects:
+- Team-level variables (e.g., team possession, rank, xG differential) were excluded.  
+- This isolates **individual contribution** and developmental tendencies independent of tactical or environmental factors.
+
+### Principal Component Analysis (PCA) — Dimensionality Reduction
+![PCA Explained Variance](outputs/pca_explained_variance.png)
+
+After standardising the 24 selected features, **PCA** was applied to reduce redundancy and retain the most informative components.
+
+**Key insights:**
+- The first component captures ~30% of total variance (broad attacking involvement).
+- By the 4th component, 80% of the variance is explained.  
+- By the 8th component, we exceed 90%, balancing information richness with interpretability.
+
+Using these 8 components ensures:
+- Correlated metrics (e.g., `xG`, `npxG`, `gls`) don’t distort clustering.  
+- The algorithm identifies **core developmental trends**, not seasonal noise.
+
+### K-Means Clustering
+![Silhouette Scores vs k](outputs/kmeans_silhouette_scores.png)
+![PCA Clusters](outputs/pca_clusters.png)
+
+- The **silhouette score (~0.18)** indicates moderate but meaningful separation — typical for small, overlapping football datasets.  
+- The chosen solution (`k=3`) balances interpretability and differentiation among winger types.
+
+### Cluster Profiles (z-score feature summaries)
+![Radar Archetypes](outputs/winger_archetype_profiles.png)
+
+The z-score summary translates each cluster’s average into deviations from the dataset mean:
+- **> 0:** Above-average performance in that metric  
+- **< 0:** Below-average performance relative to peers  
+
+| Cluster | Description | Key Traits |
+|:--:|:---------------------------|:-----------------------------------|
+| **1️⃣ Elite Output Wingers** | Top-tier creators and scorers | High `xG`, `xAG`, and `gls` across seasons; elite goal threat |
+| **0️⃣ Ball-Carrying Wingers** | Dynamic dribblers and progressors | High `prgC` and `prgR`; creative through ball movement |
+| **2️⃣ Support / Transitional Wingers** | Team-oriented, deeper roles | Lower attacking output; steady involvement in buildup |
+
+**Interpretation**
+- **Cluster 1:** Primarily top-six players (e.g., Salah, Saka, Foden) — high possession and shot volume.  
+- **Cluster 0:** Balanced between elite and mid-table sides (e.g., Madueke, Mitoma, Grealish) — strong 1v1 and carrying metrics.  
+- **Cluster 2:** Often mid/lower-table players (e.g., Bowen, McNeil, Harrison) — supportive, transitional functions.
+
+> The radar plots visually confirm that each archetype expresses a unique developmental identity — from elite output to transitional specialists.
+
+### Summary
+This unsupervised approach groups players by *how they evolve*, not just how they perform in one season.  
+The derived archetypes form a foundation for:
+- Linking **playing style trajectories** to future performance predictions, and  
+- Interpreting how progression vs productivity balance influences development and transfer value.
+
+---
+
 ## Model Evaluation
 
 The goal of the predictive modelling stage was to forecast **next-season attacking contribution** (`xG+xAG per90`) using lagged features (e.g., `xG_per90_t1`, `xAG_per90_t1`, `team_strength_t1`, progressive metrics, etc.).
