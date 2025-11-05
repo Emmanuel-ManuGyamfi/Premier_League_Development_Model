@@ -276,8 +276,7 @@ The goal of the predictive modelling stage was to forecast **next-season attacki
 
 
 ### Linear Regression
-![Linear Regression – Predictions vs Truth](outputs/Linear Regression- Predictions vs Truth.png)
-![Linear Regression – Residuals vs Predicted](outputs/Residuals vs Predicted.png)
+<img src="outputs/Linear Regression- Predictions vs Truth.png" width="450"/><img src="outputs/Residuals vs Predicted.png" width="450"/>
 
 **Metrics**
 - **MAE:** 0.11 → on average, predictions are off by ~0.11 `xG+xAG per90`
@@ -294,7 +293,7 @@ The goal of the predictive modelling stage was to forecast **next-season attacki
 > The linear baseline establishes a strong interpretable foundation — effective but constrained by linear assumptions and small sample size.
 
 ### Random Forest Regressor
-![Random Forest – Feature Importances](outputs/RF_Feature_Importance.png)
+<img src="outputs/RF_Feature_Importance.png" width="450"/>
 
 **Test Metrics**
 - **MAE:** 0.1102  
@@ -313,9 +312,9 @@ The goal of the predictive modelling stage was to forecast **next-season attacki
 > Despite weak test performance, Random Forest offers interpretability — confirming that *chance quality (xG/xAG)* remains the dominant driver of future attacking performance.
 
 ### XGBoost Regressor
-![XGBoost – Feature Importances](outputs/xgboost_feature_importance.png)
-![XGBoost – Predictions vs Truth](outputs/XGBoost- Predictions vs Truth.png)
-![XGBoost – Residuals vs Predicted](outputs/XGBoost- Residuals vs Predicted.png)
+<img src="outputs/xgboost_feature_importance.png" width="450"/>
+<img src="outputs/XGBoost- Predictions vs Truth.png" width="450"/><img src="outputs/XGBoost- Residuals vs Predicted.png" width="450"/>
+
 
 **Test Metrics**
 - **MAE:** 0.1103  
