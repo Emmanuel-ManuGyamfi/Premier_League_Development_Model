@@ -140,7 +140,7 @@ This chart plots **Assists per 90** against **Expected Assists (xAG) per 90**, p
 
 ### Player Output Efficiency Analysis (2022–23 Season)
 
-#### ⚽ Goals vs Expected Goals per 90
+#### Goals vs Expected Goals per 90
 <img src="outputs/Goals vs Expected Goals per90 (2022-2023).png" width="800"/>
 
 This chart evaluates **finishing efficiency** by comparing each winger’s **Goals per 90** to **Expected Goals (xG) per 90** during the 2022–23 season.
@@ -197,13 +197,13 @@ This visualization measures **creative efficiency**, comparing **Assists per 90*
 - Gabriel Martinelli and Alejandro Garnacho exhibit volatility typical of younger wingers, flashes of elite finishing offset by inconsistency.
 
 
-### 🚀 Progressive Actions Analysis (2022/23 – 2024/25 Seasons)
+### Progressive Actions Analysis (2022/23 – 2024/25 Seasons)
 <img src="outputs/progressive.png" width="1000"/>
 
 This section analyses player progression metrics — **Progressive Carries**, **Progressive Passes**, and **Progressive Receives per 90** — across three Premier League seasons.  
 These metrics highlight players’ ability to **advance possession**, **break lines**, and **receive the ball in attacking zones**, key indicators of modern winger effectiveness.
 
-#### 🏃‍♂️ Progressive Carries per 90
+#### Progressive Carries per 90
 - **Jack Grealish** leads this metric across all three seasons: *6.7 (22/23)*, *6.5 (23/24)*, and *6.6 (24/25)*.  
 - He’s the only player to remain in the **top two every year**, reflecting his pivotal role in carrying the ball forward and driving possession into advanced areas.  
 - **Bukayo Saka** and **Noni Madueke** are next most consistent, both ranking within the **top five** in multiple seasons.  
@@ -212,7 +212,7 @@ These metrics highlight players’ ability to **advance possession**, **break li
 > Progressive carries capture directness and dribbling involvement — attributes often linked to *creative progressors* and *ball-dominant wingers*.
 
 
-#### 🎯 Progressive Passes per 90
+#### Progressive Passes per 90
 - **Jack Grealish** again ranks among the top three each season (range: *4.6–6.5*), showcasing his dual threat as both ball carrier and creator.  
 - **Alex Iwobi** emerges as a **key progressive passer**, leading or close to the lead in each season — particularly dominant in *2023/24* and *2024/25*.  
 - **Leandro Trossard** and **Phil Foden** show steady creative progression but with more seasonal variability.  
@@ -220,7 +220,7 @@ These metrics highlight players’ ability to **advance possession**, **break li
 > Consistency in progressive passing highlights players who *dictate attacking flow* and *advance play through smart distribution*.
 
 
-#### 📥 Progressive Receives per 90
+#### Progressive Receives per 90
 - **Bukayo Saka** dominates this category across all three seasons, ranking **1st or 2nd each year**, underlining elite **off-ball movement** and **positional intelligence**.  
 - **Jack Grealish** and **Gabriel Martinelli** remain regulars in the upper tier, reflecting their involvement in advanced build-up and attacking phases.  
 - **Mohamed Salah** and **Alejandro Garnacho** display steady improvement, suggesting increased offensive involvement and tactical maturity.
@@ -235,7 +235,7 @@ These metrics highlight players’ ability to **advance possession**, **break li
 
 ---
 
-### 🏟️ Team Strength Feature Engineering
+### Team Strength Feature Engineering
 
 #### **Overview**
 To capture the contextual influence of a player’s club environment, a **team strength** feature was engineered for each Premier League season (*2022/23 – 2024/25*).  
@@ -276,8 +276,8 @@ The goal of the predictive modelling stage was to forecast **next-season attacki
 
 
 ### Linear Regression
-![Linear Regression – Predictions vs Truth](outputs/linear_regression_predictions_vs_truth.png)
-![Linear Regression – Residuals vs Predicted](outputs/linear_regression_residuals_vs_predicted.png)
+![Linear Regression – Predictions vs Truth](outputs/Linear Regression- Predictions vs Truth.png)
+![Linear Regression – Residuals vs Predicted](outputs/Residuals vs Predicted.png)
 
 **Metrics**
 - **MAE:** 0.11 → on average, predictions are off by ~0.11 `xG+xAG per90`
@@ -294,7 +294,7 @@ The goal of the predictive modelling stage was to forecast **next-season attacki
 > The linear baseline establishes a strong interpretable foundation — effective but constrained by linear assumptions and small sample size.
 
 ### Random Forest Regressor
-![Random Forest – Feature Importances](outputs/rf_feature_importance.png)
+![Random Forest – Feature Importances](outputs/RF_Feature_Importance.png)
 
 **Test Metrics**
 - **MAE:** 0.1102  
@@ -312,12 +312,10 @@ The goal of the predictive modelling stage was to forecast **next-season attacki
 
 > Despite weak test performance, Random Forest offers interpretability — confirming that *chance quality (xG/xAG)* remains the dominant driver of future attacking performance.
 
----
-
 ### XGBoost Regressor
 ![XGBoost – Feature Importances](outputs/xgboost_feature_importance.png)
-![XGBoost – Predictions vs Truth](outputs/xgboost_predictions_vs_truth.png)
-![XGBoost – Residuals vs Predicted](outputs/xgboost_residuals_vs_predicted.png)
+![XGBoost – Predictions vs Truth](outputs/XGBoost- Predictions vs Truth.png)
+![XGBoost – Residuals vs Predicted](outputs/XGBoost- Residuals vs Predicted.png)
 
 **Test Metrics**
 - **MAE:** 0.1103  
