@@ -313,6 +313,7 @@ The goal of the predictive modelling stage was to forecast **next-season attacki
 
 ### XGBoost Regressor
 <img src="outputs/xgboost_feature_importance.png" width="450"/>
+
 <img src="outputs/XGBoost- Predictions vs Truth.png" width="450"/><img src="outputs/XGBoost- Residuals vs Predicted.png" width="450"/>
 
 
@@ -346,40 +347,48 @@ The goal of the predictive modelling stage was to forecast **next-season attacki
 - Predictive power is limited by **small sample size**, but the framework demonstrates scalability for future richer datasets.  
 - Future work should include **event-level data**, **expanded player samples**, and **multiseason predictive pipelines** for improved generalization.
 
+---
 
-### 🧩 Seasonal Takeaways
-- **Salah** demonstrates elite repeatability — outperforming both xG and xAG metrics across consecutive seasons.  
-- **Neto**, **Murphy**, and **Trossard** show shifts between over- and under-performance, offering clues about form or tactical evolution.  
-- Sustained alignment between expected and actual metrics signals reliability — crucial for predictive modelling and player development forecasting.
+## Predicted xG+xAG per90 — 2025/26 Season (Linear Regression)
+<img src="outputs/xpred_xg_xag_per90_25_26.png" width="450"/>
 
-#### 🧩 Overall Summary
-- **Salah** leads both finishing and creative metrics — the gold standard among Premier League wingers.  
-- **Mbeumo** and **Barnes** emerge as high-efficiency finishers.  
-- **Saka** and **McNeil** excel creatively.  
-- **Harrison**, **Neto**, and **Grealish** lag behind expected output, potentially due to finishing or tactical context.  
+Using the **Linear Regression** model trained on *2023/24 → 2024/25* transitions, the *2024/25 season metrics* were input to project each winger’s **expected goal + assist contribution per 90 minutes** for the upcoming *2025/26 Premier League season*.
 
-> These findings identify who may **sustain or regress** toward expected levels next season — critical context for **predictive modelling** and **player development analysis**.
-
-
-
-
-## 🧾 Project Structure  
-
-
-### 🔧 Built With
-- **Python** — pandas, scikit-learn, matplotlib, plotly  
-- **Machine Learning** — PCA, K-Means, Linear Regression  
-- **Visualization** — radar charts, PCA maps, trend timelines  
-- **Football Data** — per-90 stats, team strength proxies, multi-season lags  
+| Rank | Player | Predicted xG+xAG per90 (25/26) |
+|:--:|:----------------|:----------------:|
+| 1️⃣ | **Mohamed Salah** | **0.75** |
+| 2️⃣ | **Dango Ouattara** | **0.65** |
+| 3️⃣ | **Bukayo Saka** | **0.64** |
+| 4️⃣ | **Brennan Johnson** | 0.58 |
+| 5️⃣ | **Noni Madueke** | 0.57 |
+| … | *(remaining 17 players range 0.55 → 0.31)* |  |
 
 ---
 
-### 🧠 Analytical Goals
-1. Identify key winger archetypes across three Premier League seasons.  
-2. Quantify player progression using per-90 and lagged performance metrics.  
-3. Predict each player’s next-season attacking efficiency (`xG+xA per 90`).  
-4. Visualize complex performance profiles in interpretable footballing terms.  
+### Interpretation
+
+- **Dango Ouattara** emerges as the **stand-out surprise**, ranking second overall behind **Mohamed Salah**.  
+  His underlying 2024/25 metrics — especially *progressive carries* and *passes* — drive a higher-than-expected projection, indicating significant attacking potential for 2025/26.  
+- **Elite consistency** continues for **Salah** and **Saka**, whose balanced xG/xAG profiles maintain top-tier output forecasts.  
+- The **middle group** (Johnson, Madueke, Barnes, Garnacho, Foden) projects **steady year-on-year growth**, with solid creative and progression numbers supporting sustained performance.  
+- **Lower-ranked outputs** (e.g., Alex Iwobi, Pedro Neto) reflect reduced shooting volume or weaker *team strength* inputs — emphasizing the contextual effect of team environment on predictive outcomes.  
+
+> The predicted range (~0.31–0.75 xG+xAG per90) remains moderate, consistent with the model’s **linear structure** and the compact distribution of winger performance in the Premier League.
+> 
+
+### Insights for Player Development
+- The projection identifies **potential breakout candidates** (Ouattara, Madueke) versus established performers (Salah, Saka).  
+- Combining **model forecasts** with **archetype clustering** (e.g., creative vs direct wingers) enhances scouting and tactical analysis.  
+- Clubs could use this framework to **prioritize signings or developmental focus areas** aligned with model-identified growth profiles.
+  ### ⚽ Insights for Player Development
+
+The **Linear Regression** model balances **interpretability with signal**, identifying **Dango Ouattara** and **Noni Madueke** as *high-upside profiles* before their high-profile 2025/26 transfers.
+
+- **Dango Ouattara’s** projection as Brentford’s **club-record signing** is particularly notable, considering how heavily Brentford rely on **data-driven recruitment**.  
+  His strong underlying progression metrics suggest that the model correctly anticipates his potential to thrive in a system emphasizing **transitional and efficiency-based attacking patterns**.  
+- **Noni Madueke’s** transfer to **Arsenal** is another intriguing case — his predicted upside highlights how **underlying metrics** (progressive actions, expected assists) may reveal untapped potential that traditional statistics overlook.  
+  In a possession-oriented environment, these attributes could translate into substantial attacking gains.
+
+> These case studies demonstrate how **interpretable models** can bridge the gap between statistical projections and **real-world football decisions**, highlighting players whose profiles align with evolving tactical systems and recruitment philosophies.
 
 ---
-
-
