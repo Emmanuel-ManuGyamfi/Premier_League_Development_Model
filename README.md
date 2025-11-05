@@ -72,7 +72,7 @@ By combining **feature engineering**, **PCA**, **K-Means clustering**, and **reg
 
 ### Player Output Efficiency Analysis (2024–25 Season)
 
-#### ⚽ Goals vs Expected Goals per 90
+#### Goals vs Expected Goals per 90
 <img src="outputs/Goals vs Expected Goals per90 (2024-2025).png" width="800"/>
 
 This chart compares each winger’s **Goals per 90** against their **Expected Goals (xG) per 90**, providing insight into finishing efficiency.
@@ -89,9 +89,8 @@ This chart compares each winger’s **Goals per 90** against their **Expected Go
 
 > The overall correlation (r ≈ 0.8) suggests xG remains a strong predictor of goal output, though individual quality differentiates elite performers.
 
----
 
-#### 🎯 Assists vs Expected Assists per 90
+#### Assists vs Expected Assists per 90
 <img src="outputs/Assists vs Expected Assists per90 (2024-2025).png" width="800"/>
 
 This chart compares **Assists per 90** with **Expected Assists (xAG) per 90**, measuring creative efficiency — how well key passes are being converted into goals.
@@ -108,11 +107,10 @@ This chart compares **Assists per 90** with **Expected Assists (xAG) per 90**, m
 
 > Strong correlation (r ≈ 0.85) reinforces xAG as a robust measure of creative output.
 
----
 
 ### Player Output Efficiency Analysis (2023–24 Season)
 
-#### ⚽ Goals vs Expected Goals per 90
+#### Goals vs Expected Goals per 90
 <img src="outputs/Goals vs Expected Goals per90 (2023-2024).png" width="800"/>
 
 This chart compares each winger’s **Goals per 90** to **Expected Goals (xG) per 90**, illustrating how finishing quality and shot conversion evolved during the 2023–24 Premier League season.
@@ -125,9 +123,8 @@ This chart compares each winger’s **Goals per 90** to **Expected Goals (xG) pe
 
 > Overall, a similar pattern to 2024–25 emerges — elite attackers consistently exceed expectation, underlining stable finishing skill rather than luck.
 
----
 
-#### 🎯 Assists vs Expected Assists per 90
+#### Assists vs Expected Assists per 90
 <img src="outputs/Assists vs Expected Assists per90 (2023-2024).png" width="800"/>
 
 This chart plots **Assists per 90** against **Expected Assists (xAG) per 90**, providing a view into creative efficiency and chance conversion from wide areas.
@@ -140,7 +137,6 @@ This chart plots **Assists per 90** against **Expected Assists (xAG) per 90**, p
 
 > The trends reinforce player consistency across seasons — those who outperform xAG tend to sustain creativity due to tactical role and decision-making rather than randomness.
 
----
 
 ### Player Output Efficiency Analysis (2022–23 Season)
 
@@ -157,9 +153,8 @@ This chart evaluates **finishing efficiency** by comparing each winger’s **Goa
 
 > Salah’s sustained overperformance across years underscores a genuine skill advantage, not random variance — an important validation for player development models.
 
----
 
-#### 🎯 Assists vs Expected Assists per 90
+#### Assists vs Expected Assists per 90
 <img src="outputs/Assists vs Expected Assists per90 (2022-2023).png" width="800"/>
 
 This visualization measures **creative efficiency**, comparing **Assists per 90** to **Expected Assists (xAG) per 90**.
@@ -173,15 +168,40 @@ This visualization measures **creative efficiency**, comparing **Assists per 90*
 
 > The creative efficiency trends align with finishing outcomes — suggesting that both scoring and assisting ability follow consistent player archetypes over time.
 
----
+### Predictive Outlook for 2025–26
+
+**Mohamed Salah — World-Class Standard**
+
+- Three consecutive seasons of outperforming both xG and xAG indicate sustainable excellence.
+- His per-90 metrics remain elite across all attacking facets — volume, efficiency, and consistency.
+- Expect continued high output barring age-related decline; regression unlikely given his historical overperformance stability.
+
+**Bukayo Saka — Approaching Elite Tier**
+
+- Consistent creative overperformance across seasons suggests natural playmaking growth.
+- Slightly underperforms xG at times, but shot volume and involvement trends point to a strong upward trajectory.
+- Likely to push closer to Salah’s production tier in 2025–26.
+
+**Phil Foden & Leandro Trossard — High-Efficiency Finishers**
+
+- Both have sustained finishing quality above xG for multiple seasons.
+- Foden’s goal contribution profile aligns with prime-age breakout potential; expect another efficient season with potential xG+xA growth.
+
+**Harvey Barnes & Bryan Mbeumo — Reliable Output Profiles**
+
+- Repeat overperformers in finishing metrics; maintain solid per-90 returns with efficient shot selection.
+- Projected 2025–26 outputs should mirror recent averages unless club dynamics change.
+
+**Emerging/Volatile Profiles**
+
+- Gabriel Martinelli and Alejandro Garnacho exhibit volatility typical of younger wingers, flashes of elite finishing offset by inconsistency.
+
 
 ### 🚀 Progressive Actions Analysis (2022/23 – 2024/25 Seasons)
 <img src="outputs/progressive.png" width="1000"/>
 
 This section analyses player progression metrics — **Progressive Carries**, **Progressive Passes**, and **Progressive Receives per 90** — across three Premier League seasons.  
 These metrics highlight players’ ability to **advance possession**, **break lines**, and **receive the ball in attacking zones**, key indicators of modern winger effectiveness.
-
----
 
 #### 🏃‍♂️ Progressive Carries per 90
 - **Jack Grealish** leads this metric across all three seasons: *6.7 (22/23)*, *6.5 (23/24)*, and *6.6 (24/25)*.  
@@ -191,7 +211,6 @@ These metrics highlight players’ ability to **advance possession**, **break li
 
 > Progressive carries capture directness and dribbling involvement — attributes often linked to *creative progressors* and *ball-dominant wingers*.
 
----
 
 #### 🎯 Progressive Passes per 90
 - **Jack Grealish** again ranks among the top three each season (range: *4.6–6.5*), showcasing his dual threat as both ball carrier and creator.  
@@ -200,7 +219,6 @@ These metrics highlight players’ ability to **advance possession**, **break li
 
 > Consistency in progressive passing highlights players who *dictate attacking flow* and *advance play through smart distribution*.
 
----
 
 #### 📥 Progressive Receives per 90
 - **Bukayo Saka** dominates this category across all three seasons, ranking **1st or 2nd each year**, underlining elite **off-ball movement** and **positional intelligence**.  
@@ -209,13 +227,127 @@ These metrics highlight players’ ability to **advance possession**, **break li
 
 > High progressive receives values identify players adept at *finding space*, *linking play*, and *maintaining attacking width*.
 
----
-
 #### 📈 Summary
 - **Grealish** stands out as a complete progressor — excelling in carries, passes, and receives across three years.  
 - **Saka** continues to lead as an elite receiver, highlighting movement and positioning as his key strengths.  
 - **Iwobi**’s progression underscores his playmaking evolution and adaptability across systems.  
 - The trio of **Grealish, Saka, and Martinelli** exemplifies sustained attacking involvement — key indicators for player development and role archetype analysis.
+
+---
+
+### 🏟️ Team Strength Feature Engineering
+
+#### **Overview**
+To capture the contextual influence of a player’s club environment, a **team strength** feature was engineered for each Premier League season (*2022/23 – 2024/25*).  
+This variable quantifies the **relative quality of each club** based on its final league position, enabling the model to account for environmental factors that impact player output.
+
+#### **Calculation**
+Team strength was derived from the club’s final league rank using the following formula:
+
+\[
+\text{team_strength} = \frac{21 - \text{Rank}}{20}
+\]
+
+- Teams finishing **1st** receive a value of **1.00** (strongest).  
+- Teams finishing **20th** receive a value of **0.05** (weakest).  
+
+This ensures a continuous variable representing club quality across all seasons.
+
+#### **Purpose**
+Incorporating team strength provides important context for interpreting player metrics and model predictions.  
+Players in stronger teams tend to produce higher attacking outputs due to:
+- Greater **possession share** and territorial dominance  
+- **Higher tactical cohesion** and teammate quality  
+- Increased **chance creation** and attacking opportunities  
+
+To reduce short-term volatility (e.g., managerial changes or over/underperformance), a **rolling average** was applied to smooth club-level trends and reflect sustained team strength.
+
+#### **Imputing Team Strength for Newly Promoted Clubs**
+For the **2025–26 season**, newly promoted teams lacked prior Premier League rankings.  
+To maintain numerical consistency, a **default team_strength value of 0.20** (equivalent to a 17th-place finish) was assigned to these clubs.  
+
+> This approach preserves model integrity by ensuring all players have comparable contextual features, even from newly promoted sides.
+
+---
+
+## Model Evaluation
+
+The goal of the predictive modelling stage was to forecast **next-season attacking contribution** (`xG+xAG per90`) using lagged features (e.g., `xG_per90_t1`, `xAG_per90_t1`, `team_strength_t1`, progressive metrics, etc.).
+
+
+### Linear Regression
+![Linear Regression – Predictions vs Truth](outputs/linear_regression_predictions_vs_truth.png)
+![Linear Regression – Residuals vs Predicted](outputs/linear_regression_residuals_vs_predicted.png)
+
+**Metrics**
+- **MAE:** 0.11 → on average, predictions are off by ~0.11 `xG+xAG per90`
+- **MSE:** Moderate, consistent with MAE
+- **R²:** 0.27 → model explains ~27% of the variance in next-season attacking output
+
+**Interpretation**
+- Captures general direction — higher xG+xAG players are predicted higher.  
+- Some over/under-estimation visible (points deviating from the diagonal).  
+- Linear structure captures part of the signal but misses some non-linear patterns.  
+- Residuals are centered near zero → no major systematic bias.  
+- Variation across predicted values suggests limited generalization — some players overpredicted, others underpredicted.
+
+> The linear baseline establishes a strong interpretable foundation — effective but constrained by linear assumptions and small sample size.
+
+### Random Forest Regressor
+![Random Forest – Feature Importances](outputs/rf_feature_importance.png)
+
+**Test Metrics**
+- **MAE:** 0.1102  
+- **RMSE:** 0.1426  
+- **R²:** 0.03  
+
+**Interpretation**
+- The tuned Random Forest does **not outperform** the linear baseline (R² ≈ 0.03 vs 0.27).  
+- Likely limited by the **small dataset size**, **target noise**, and **cross-validation variance**.  
+- Ensemble models like RF can **overfit** subtle, non-generalizable patterns when data is sparse.
+
+**Feature Importance**
+- Next-season output is driven most by **previous season xG and xAG** — process metrics are stronger than raw outcomes.  
+- **Minutes** and **progressive passing** contribute contextual information but with smaller weights.  
+
+> Despite weak test performance, Random Forest offers interpretability — confirming that *chance quality (xG/xAG)* remains the dominant driver of future attacking performance.
+
+---
+
+### XGBoost Regressor
+![XGBoost – Feature Importances](outputs/xgboost_feature_importance.png)
+![XGBoost – Predictions vs Truth](outputs/xgboost_predictions_vs_truth.png)
+![XGBoost – Residuals vs Predicted](outputs/xgboost_residuals_vs_predicted.png)
+
+**Test Metrics**
+- **MAE:** 0.1103  
+- **RMSE:** 0.1429  
+- **R²:** 0.03  
+
+**Interpretation**
+- Performs similarly to Random Forest and slightly worse than Linear Regression.  
+- Indicates **limited nonlinear structure** — the dataset’s signal is mostly linear.  
+- Predictions cluster narrowly → mild underfitting due to small data range.  
+- Residuals center around zero → unbiased but low variance explained.
+
+**Feature Importance**
+- XGBoost prioritizes **progressive actions** (`prgP`, `prgC`, `prgR`) and **team strength**, over pure goal metrics.  
+- Suggests the model learns how **creative contribution and environment** influence expected goal involvement.  
+
+> The emphasis on **progressive play** and **team context** aligns with tactical intuition — players who advance possession and play in stronger teams tend to sustain higher expected outputs.
+
+### Summary
+| Model | MAE | RMSE | R² | Key Takeaways |
+|--------|------|------|----|----------------|
+| **Linear Regression** | 0.11 | 0.14 | **0.27** | Baseline interpretable model; captures main linear trends |
+| **Random Forest** | 0.11 | 0.14 | 0.03 | Slight overfitting; xG/xAG dominate importance |
+| **XGBoost** | 0.11 | 0.14 | 0.03 | Underfitted; emphasizes progressive play + team context |
+
+### Key Insights
+- Linear regression remains the most stable given the data volume and feature set.  
+- Ensemble models (RF/XGBoost) reveal **important contextual drivers** even without performance gains.  
+- Predictive power is limited by **small sample size**, but the framework demonstrates scalability for future richer datasets.  
+- Future work should include **event-level data**, **expanded player samples**, and **multiseason predictive pipelines** for improved generalization.
 
 
 ### 🧩 Seasonal Takeaways
