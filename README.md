@@ -351,6 +351,8 @@ The goal of the predictive modelling stage was to forecast **next-season attacki
 
 ## Predicted xG+xAG per90 — 2025/26 Season (Linear Regression)
 <img src="outputs/xpred_xg_xag_per90_25_26.png" width="800"/>
+![Predicted xG+xAG per90 for 2025/26 Season](outputs/pred_xg_xag_per90_25_26.png)
+
 
 Using the **Linear Regression** model trained on *2023/24 → 2024/25* transitions, the *2024/25 season metrics* were input to project each winger’s **expected goal + assist contribution per 90 minutes** for the upcoming *2025/26 Premier League season*.
 
