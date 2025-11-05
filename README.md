@@ -350,7 +350,6 @@ The goal of the predictive modelling stage was to forecast **next-season attacki
 ---
 
 ## Predicted xG+xAG per90 — 2025/26 Season (Linear Regression)
-<img src="outputs/xpred_xg_xag_per90_25_26.png" width="800"/>
 ![Predicted xG+xAG per90 for 2025/26 Season](outputs/pred_xg_xag_per90_25_26.png)
 
 
