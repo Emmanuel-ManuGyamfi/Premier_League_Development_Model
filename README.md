@@ -449,10 +449,8 @@ Using the **Linear Regression** model trained on *2023/24 → 2024/25* transitio
 
 The **Linear Regression** model balances **interpretability with signal**, identifying **Dango Ouattara** and **Noni Madueke** as *high-upside profiles* before their high-profile 2025/26 transfers.
 
-- **Dango Ouattara’s** projection as Brentford’s **club-record signing** is particularly notable, considering how heavily Brentford rely on **data-driven recruitment**.  
-  His strong underlying progression metrics suggest that the model correctly anticipates his potential to thrive in a system emphasizing **transitional and efficiency-based attacking patterns**.  
-- **Noni Madueke’s** transfer to **Arsenal** is another intriguing case — his predicted upside highlights how **underlying metrics** (progressive actions, expected assists) may reveal untapped potential that traditional statistics overlook.  
-  In a possession-oriented environment, these attributes could translate into substantial attacking gains.
+- **Dango Ouattara’s** projection as Brentford’s **club-record signing** is particularly notable, considering how heavily Brentford rely on **data-driven recruitment**. His strong underlying progression metrics suggest that the model correctly anticipates his potential to thrive in a system emphasizing **transitional and efficiency-based attacking patterns**.  
+- **Noni Madueke’s** transfer to **Arsenal** is another intriguing case — his predicted upside highlights how **underlying metrics** (progressive actions, expected assists) may reveal untapped potential that traditional statistics overlook. In a possession-oriented environment, these attributes could translate into substantial attacking gains.
 
 > These case studies demonstrate how **interpretable models** can bridge the gap between statistical projections and **real-world football decisions**, highlighting players whose profiles align with evolving tactical systems and recruitment philosophies.
 
