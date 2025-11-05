@@ -16,7 +16,7 @@ By combining **feature engineering**, **PCA**, **K-Means clustering**, and **reg
   Investigated distributions, positional trends, and relationships between attacking and progression metrics.  
 
 - **Feature Engineering:**  
-  Built lag features across three seasons, created per-90 metrics, normalized (z-scores), and filtered players with ≥500 minutes.  
+  Built lag features across three seasons, created per-90 metrics, normalised (z-scores), and filtered players with ≥500 minutes.  
 
 - **Clustering & Archetypes (PCA + K-Means):**  
   Identified distinct winger profiles — including *Ball-Carrying Progressors*, *Creative Dribblers*, and *Direct Finishers*.  
@@ -92,7 +92,7 @@ This chart compares each winger’s **Goals per 90** against their **Expected Go
 ---
 
 #### 🎯 Assists vs Expected Assists per 90
-<img src="outputs/Assists vs Expected Assists per900 (2024-2025).png" width="800"/>
+<img src="outputs/Assists vs Expected Assists per90 (2024-2025).png" width="800"/>
 
 This chart compares **Assists per 90** with **Expected Assists (xAG) per 90**, measuring creative efficiency — how well key passes are being converted into goals.
 
@@ -128,7 +128,7 @@ This chart compares each winger’s **Goals per 90** to **Expected Goals (xG) pe
 ---
 
 #### 🎯 Assists vs Expected Assists per 90
-![Assists vs Expected Assists per90 (2023–2024)](outputs/assists_vs_xag_per90_2023_24.png)
+<img src="outputs/Assists vs Expected Assists per90 (2023-2024).png" width="800"/>
 
 This chart plots **Assists per 90** against **Expected Assists (xAG) per 90**, providing a view into creative efficiency and chance conversion from wide areas.
 
@@ -145,7 +145,7 @@ This chart plots **Assists per 90** against **Expected Assists (xAG) per 90**, p
 ### Player Output Efficiency Analysis (2022–23 Season)
 
 #### ⚽ Goals vs Expected Goals per 90
-![Goals vs Expected Goals per90 (2022–2023)](outputs/goals_vs_xg_per90_2022_23.png)
+<img src="outputs/Goals vs Expected Goals per90 (2022-2023).png" width="800"/>
 
 This chart evaluates **finishing efficiency** by comparing each winger’s **Goals per 90** to **Expected Goals (xG) per 90** during the 2022–23 season.
 
@@ -160,7 +160,7 @@ This chart evaluates **finishing efficiency** by comparing each winger’s **Goa
 ---
 
 #### 🎯 Assists vs Expected Assists per 90
-![Assists vs Expected Assists per90 (2022–2023)](outputs/assists_vs_xag_per90_2022_23.png)
+<img src="outputs/Assists vs Expected Assists per90 (2022-2023).png" width="800"/>
 
 This visualization measures **creative efficiency**, comparing **Assists per 90** to **Expected Assists (xAG) per 90**.
 
@@ -176,7 +176,7 @@ This visualization measures **creative efficiency**, comparing **Assists per 90*
 ---
 
 ### 🚀 Progressive Actions Analysis (2022/23 – 2024/25 Seasons)
-![Progressive Actions](outputs/progressive.png)
+<img src="outputs/progressive.png" width="1000"/>
 
 This section analyses player progression metrics — **Progressive Carries**, **Progressive Passes**, and **Progressive Receives per 90** — across three Premier League seasons.  
 These metrics highlight players’ ability to **advance possession**, **break lines**, and **receive the ball in attacking zones**, key indicators of modern winger effectiveness.
