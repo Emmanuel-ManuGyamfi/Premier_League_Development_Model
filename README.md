@@ -1,9 +1,9 @@
-# Premier League Development Model ⚽📊  
+# Premier League Development Model ⚽
 *A data-driven analysis of winger performance, archetypes, and predictive modelling across the Premier League.*
 
 ---
 
-## 🧠 Project Overview  
+##  Project Overview  
 This project builds an **end-to-end data science workflow** for evaluating and forecasting player development in the **Premier League**, with a focus on **wingers**.  
 It integrates multi-season player data, clustering, and predictive modelling to uncover **performance archetypes**, **track individual progression**, and **forecast future output**.
 
@@ -11,7 +11,7 @@ By combining **feature engineering**, **PCA**, **K-Means clustering**, and **reg
 
 ---
 
-## 🔍 Key Highlights  
+## Key Highlights  
 - **Exploratory Data Analysis (EDA):**  
   Investigated distributions, positional trends, and relationships between attacking and progression metrics.  
 
@@ -29,7 +29,7 @@ By combining **feature engineering**, **PCA**, **K-Means clustering**, and **reg
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 - Develop an **end-to-end player development model** focused on Premier League wingers.  
 - Apply **feature engineering** (per-90 metrics, lag variables, normalization, and filtering).  
 - Identify **distinct player archetypes** using **PCA** and **K-Means clustering**.  
@@ -38,7 +38,7 @@ By combining **feature engineering**, **PCA**, **K-Means clustering**, and **reg
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 - **Language:** Python 3.12  
 - **Libraries:** pandas, numpy, scikit-learn, plotly, matplotlib, seaborn  
 - **Clustering & Modelling:** PCA, K-Means, Linear Regression  
@@ -48,7 +48,7 @@ By combining **feature engineering**, **PCA**, **K-Means clustering**, and **reg
 
 ---
 
-## 📚 Dataset Overview
+## Dataset Overview
 
 | Feature | Description |
 |----------|-------------|
@@ -68,7 +68,7 @@ By combining **feature engineering**, **PCA**, **K-Means clustering**, and **reg
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 ### Player Output Efficiency Analysis (2024–25 Season)
 
@@ -92,7 +92,7 @@ This chart compares each winger’s **Goals per 90** against their **Expected Go
 ---
 
 #### 🎯 Assists vs Expected Assists per 90
-![Assists vs Expected Assists per90](outputs/Assists vs Expected Assists per90 (2024-2025).png)
+<img src="outputs/Assists vs Expected Assists per900 (2024-2025).png" width="800"/>
 
 This chart compares **Assists per 90** with **Expected Assists (xAG) per 90**, measuring creative efficiency — how well key passes are being converted into goals.
 
@@ -113,7 +113,7 @@ This chart compares **Assists per 90** with **Expected Assists (xAG) per 90**, m
 ### Player Output Efficiency Analysis (2023–24 Season)
 
 #### ⚽ Goals vs Expected Goals per 90
-![Goals vs Expected Goals per90 (2023–2024)](outputs/goals_vs_xg_per90_2023_24.png)
+<img src="outputs/Goals vs Expected Goals per90 (2023-2024).png" width="800"/>
 
 This chart compares each winger’s **Goals per 90** to **Expected Goals (xG) per 90**, illustrating how finishing quality and shot conversion evolved during the 2023–24 Premier League season.
 
