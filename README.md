@@ -1,16 +1,36 @@
-# Premier League Development Model ⚽️📊  
-*A data-driven analysis of winger performance, archetypes, and predictive modeling across the Premier League.*
+# Premier League Development Model ⚽📊  
+*A data-driven analysis of winger performance, archetypes, and predictive modelling across the Premier League.*
 
 ---
 
-## 🏗️ Project Overview
+## 🧠 Project Overview  
+This project builds an **end-to-end data science workflow** for evaluating and forecasting player development in the **Premier League**, with a focus on **wingers**.  
+It integrates multi-season player data, clustering, and predictive modelling to uncover **performance archetypes**, **track individual progression**, and **forecast future output**.
 
-This project builds an **end-to-end data science pipeline** for evaluating and forecasting player development in the Premier League.  
-Focusing on **wingers**, it combines performance data from multiple seasons to uncover player **archetypes**, **track progression**, and **predict next-season attacking output** (`xG+xA per 90`).
-
-By integrating feature engineering, clustering (PCA + K-Means), and regression modeling, the **Premier League Development Model** aims to bridge **quantitative analysis** and **football insight** — providing interpretable, evidence-based perspectives for scouting and player development.
+By combining **feature engineering**, **PCA**, **K-Means clustering**, and **regression modelling**, the Premier League Development Model bridges **quantitative analysis** and **football intelligence** — providing **evidence-based insights** for scouting, recruitment, and performance development.
 
 ---
+
+## 🔍 Key Highlights  
+- **Exploratory Data Analysis (EDA):**  
+  Investigated distributions, positional trends, and relationships between attacking and progression metrics.  
+
+- **Feature Engineering:**  
+  Built lag features across three seasons, created per-90 metrics, normalized (z-scores), and filtered players with ≥500 minutes.  
+
+- **Clustering & Archetypes (PCA + K-Means):**  
+  Identified distinct winger profiles — including *Ball-Carrying Progressors*, *Creative Dribblers*, and *Direct Finishers*.  
+
+- **Predictive Modelling:**  
+  Used **Linear Regression** to forecast next-season `xG+xA per 90`, validating model performance and interpretability.  
+
+- **Visualization:**  
+  Interactive PCA scatter plots and radar charts reveal stylistic differences across archetypes and player progression.  
+
+---
+
+## 🧾 Project Structure  
+
 
 ### 🔧 Built With
 - **Python** — pandas, scikit-learn, matplotlib, plotly  
