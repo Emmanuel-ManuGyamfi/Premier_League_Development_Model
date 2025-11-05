@@ -227,7 +227,7 @@ These metrics highlight players’ ability to **advance possession**, **break li
 
 > High progressive receives values identify players adept at *finding space*, *linking play*, and *maintaining attacking width*.
 
-#### 📈 Summary
+#### Summary
 - **Grealish** stands out as a complete progressor — excelling in carries, passes, and receives across three years.  
 - **Saka** continues to lead as an elite receiver, highlighting movement and positioning as his key strengths.  
 - **Iwobi**’s progression underscores his playmaking evolution and adaptability across systems.  
@@ -350,7 +350,7 @@ The goal of the predictive modelling stage was to forecast **next-season attacki
 ---
 
 ## Predicted xG+xAG per90 — 2025/26 Season (Linear Regression)
-<img src="outputs/xpred_xg_xag_per90_25_26.png" width="450"/>
+<img src="outputs/xpred_xg_xag_per90_25_26.png" width="800"/>
 
 Using the **Linear Regression** model trained on *2023/24 → 2024/25* transitions, the *2024/25 season metrics* were input to project each winger’s **expected goal + assist contribution per 90 minutes** for the upcoming *2025/26 Premier League season*.
 
@@ -380,7 +380,6 @@ Using the **Linear Regression** model trained on *2023/24 → 2024/25* transitio
 - The projection identifies **potential breakout candidates** (Ouattara, Madueke) versus established performers (Salah, Saka).  
 - Combining **model forecasts** with **archetype clustering** (e.g., creative vs direct wingers) enhances scouting and tactical analysis.  
 - Clubs could use this framework to **prioritize signings or developmental focus areas** aligned with model-identified growth profiles.
-  ### ⚽ Insights for Player Development
 
 The **Linear Regression** model balances **interpretability with signal**, identifying **Dango Ouattara** and **Noni Madueke** as *high-upside profiles* before their high-profile 2025/26 transfers.
 
