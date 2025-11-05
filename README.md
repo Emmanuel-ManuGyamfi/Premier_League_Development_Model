@@ -73,7 +73,7 @@ By combining **feature engineering**, **PCA**, **K-Means clustering**, and **reg
 ### Player Output Efficiency Analysis (2024–25 Season)
 
 #### ⚽ Goals vs Expected Goals per 90
-<img src="outputs/Goals vs Expected Goals per90 (2024-2025).png" width="450"/>
+<img src="outputs/Goals vs Expected Goals per90 (2024-2025).png" width="800"/>
 
 This chart compares each winger’s **Goals per 90** against their **Expected Goals (xG) per 90**, providing insight into finishing efficiency.
 
